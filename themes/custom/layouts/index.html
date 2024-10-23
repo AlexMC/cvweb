@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/images/profile.jpeg" alt="{{ .Site.Params.name }}" class="profile-pic">
+        <div class="intro">
+            Hi 👋 I'm Alex, a <span class="red">Product Builder</span> and <span class="red">CTPO</span>
+            <p><a href="{{ .Site.Params.linkedin }}">LinkedIn</a></p>
+        </div>
+    </header>
+
+    <main>
+        <span class="text">{{ .Content }}</span>
+
+        <section class="section two-column">
+            <h2>My Professional Path</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Pioneering in Generative AI</h3>
+                    <p>At Metaphysic.ai, I'm part of an amazing journey, recognized by Time100, where creativity meets cutting-edge AI technology.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>The Excitement of Growth</h3>
+                    <p>Besttables was a thrilling chapter where I led the team from an idea to a successful exit, a testament to the power of teamwork and vision.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Scaling and Mentoring</h3>
+                    <p>From scaling tech teams at Streetbees and Indiecampers to guiding startups, my focus has always been on nurturing talent and driving innovation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section two-column">
+            <h2>What I Offer</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Consulting and Advisory</h3>
+                    <p>I enjoy sharing my experience with businesses looking to innovate and grow. Whether it's technology strategy or team dynamics, I'm here for an open and insightful conversation.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h3>Product Development</h3>
+                    <p>Building products that resonate with users and stand out in the market has always been my forte, and I love discussing new ideas and perspectives.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

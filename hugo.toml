@@ -1,0 +1,11 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "custom"
+
+
+[params]
+  name = "Alexandre Carvalho"
+  tagline = "Product Builder and CTPO"
+  company = "Metaphysic.ai"
+  linkedin = "https://linkedin.com/in/yourusername"
