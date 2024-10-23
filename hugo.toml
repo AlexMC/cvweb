@@ -1,4 +1,4 @@
-baseURL = 'https://alexmc.github.io/cvweb/'
+baseURL = 'https://alexcarvalho.me/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "custom"
