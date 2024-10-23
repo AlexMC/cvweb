@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
 <body>
     <header class="header">
-        <img src="/images/profile.jpeg" alt="{{ .Site.Params.name }}" class="profile-pic">
+        <img src="{{ "images/profile.jpeg" | relURL }}" alt="Profile" class="profile-pic">
         <div class="intro">
             Hi 👋 I'm Alex, a <span class="red">Product Builder</span> and <span class="red">CTPO</span>
             <p><a href="{{ .Site.Params.linkedin }}">LinkedIn</a></p>
